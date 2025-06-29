@@ -1,0 +1,32 @@
+.preview-viewer-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.preview-content {
+  flex: 1;
+  overflow: auto;
+  padding: 16px;
+  background-color: #f5f5f5;
+}
+
+.preview-layout {
+  display: flex;
+  gap: 16px;
+  height: 100%;
+}
+
+.model-tree-panel {
+  width: 250px;
+  min-width: 250px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.viewer-panel {
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+} 
